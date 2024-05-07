@@ -4,6 +4,8 @@ import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 import StudioDetailsPage from "./pages/StudioDetailsPage";
+import SelectTimePage from "./pages/SelectTimePage";
+import SuccessPage from "./pages/SuccessPage";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/studios/:id" element={<StudioDetailsPage />} />
+        <Route path="/select-time" element={<SelectTimePage />} />
+        <Route path="/success" element={<SuccessPage />} />
       </Routes>
     </Router>
   );

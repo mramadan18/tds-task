@@ -8,7 +8,7 @@ const Header = () => {
   const [isLogin] = useState<boolean>(false);
 
   return (
-    <header className="bg-white sticky top-0 w-full py-5 shadow-md">
+    <header className="bg-white sticky top-0 w-full py-5 shadow-md z-50">
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="items-center gap-6 hidden lg:flex">
